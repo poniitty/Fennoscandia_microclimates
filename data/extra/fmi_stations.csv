@@ -1,0 +1,446 @@
+﻿Name;FMISID;LPNN;WMO;Lat;Lon;Elevation;Groups;Started
+Alajärvi Möksy;101533;3314;2787;63.09;24.26;171;weather;1957
+Alavus Sulkavankylä;101305;2213;;62.45;23.55;124;precipitation;1942
+Asikkala Pulkkilanharju;101185;1434;2727;61.27;25.52;79;weather;1991
+Enonkoski Simanala;101446;2806;;62.06;29.04;95;precipitation;1937
+Enontekiö Kaaresuvanto;101968;8102;;68.44;22.51;320;precipitation;1953
+Enontekiö Kilpisjärvi Saana;102017;9004;2701;69.04;20.85;1002;weather;1991
+Enontekiö Kilpisjärvi;102016;9003;2801;69.05;20.79;480;weather, precipitation;1978
+Enontekiö Näkkälä;102019;9201;2726;68.6;23.58;374;weather;1960
+Enontekiö airport;101976;8208;2802;68.36;23.43;308;weather;1999
+Espoo Kivenlahti;101000;334;2838;60.18;24.64;44;mast;1989
+Espoo Kytö;654910;;;60.06;24.72;0;buoy;2013
+Espoo Leppävaara Läkkisepänkuja;100691;;;60.22;24.81;9;air quality (urban);2010
+Espoo Luukki;100723;;;60.31;24.68;64;air quality (urban);1987
+Espoo Länsiväylä Friisilä;106949;;;60.16;24.71;5;air quality (urban);2019
+Espoo Nuuksio;852678;344;2986;60.29;24.57;90;weather;2014
+Espoo Otaniemi Kehä I;107148;;;60.18;24.82;17;air quality (urban);2020
+Espoo Tapiola;874863;342;2985;60.18;24.79;6;weather;2013
+Föglö Degerby;134252;;;60.03;20.38;0;mareograph;1923
+Haapavesi Mustikkamäki;101695;4402;2797;64.14;25.42;112;weather, precipitation;1951
+Hailuoto Keskikylä;101776;5301;2874;65.02;24.73;6;weather;1950
+Hailuoto Kujalannurkka;104109;;;65;24.69;4;air quality (FMI);1995
+Hailuoto Marjaniemi;101784;5310;2873;65.04;24.56;7;weather, air quality (FMI);1881
+Halsua Purola;101528;3309;2725;63.45;24.44;153;weather, precipitation;1958
+Hamina Pitäjänsaari;134254;;;60.56;27.18;0;mareograph;1928
+Hammarland Märket;100919;14;2993;60.3;19.13;3;weather;1977
+Hanko Längden;654900;;;59.76;23.22;0;buoy;2013
+Hanko Pikku Kolalahti;134253;;;59.82;22.98;0;mareograph;1887
+Hanko Russarö;100932;101;2982;59.77;22.95;6;weather;1881
+Hanko Tulliniemi;100946;115;2746;59.81;22.91;10;weather;1990
+Hanko Tvärminne;100953;202;2750;59.84;23.25;3;weather;1962
+Harjavalta Kaleva;103142;;;61.31;22.14;43;air quality (urban);1978
+Harjavalta Pirkkala;103143;;;61.33;22.14;40;air quality (urban);1990
+Hattula Lepaa;101151;1323;2704;61.11;24.32;87;weather;2006
+Heinola Asemantaus;101196;1506;2768;61.2;26.05;93;weather;1908
+Heinola Tiilitehtaankatu;105416;;;61.2;26.05;70;air quality (urban);2018
+Heinävesi Palokki;101589;3702;;62.57;28.59;103;precipitation;1908
+Helsinki Harmaja;100996;330;2795;60.11;24.98;6;weather;1989
+Helsinki lighthouse;101003;337;2989;59.95;24.93;0;weather;2003
+Helsinki Kaisaniemi;100971;304;2978;60.18;24.94;3;weather;1844
+Helsinki Kaivopuisto;132310;345;2960;60.15;24.96;2;mareograph;1904
+Helsinki Kallio 2;100662;;;60.19;24.95;21;air quality (urban);1999
+Helsinki Kumpula;101004;339;2998;60.2;24.96;24;weather, precipitation, air quality (FMI);2005
+Helsinki Länsisatama 4;106948;;;60.16;24.92;3;air quality (urban);2019
+Helsinki Malmi airfield;101009;401;;60.25;25.05;15;weather;1937
+Helsinki Mannerheimintie;100742;;;60.17;24.94;5;air quality (urban);2005
+Helsinki Mäkelänkatu;100762;;;60.2;24.95;25;air quality (urban);2015
+Helsinki Paloheinä;107165;;;60.25;24.94;26;air quality (urban);2019
+Helsinki Pirkkola;106950;;;60.23;24.92;20;air quality (urban);2019
+Helsinki Suomenlinna wavebuoy;103976;;;60.12;24.97;0;buoy;2016
+Helsinki Vartiokylä Huivipolku;100803;;;60.22;25.1;25;air quality (urban);2009
+Helsinki Vuosaari Käärmeniementie;103943;;;60.22;25.17;9;weather;2016
+Helsinki Vuosaari harbour;151028;411;;60.21;25.2;2;weather;2012
+Hollola Kansankatu siirrettävä;103814;;;60.99;25.52;150;air quality (urban);2015
+Hollola Muovitie;104096;;;61;25.53;156;air quality (urban);2015
+Huittinen Sallila;101075;1111;;61.02;22.7;73;precipitation;1961
+Hyvinkää Hyvinkäänkylä;101130;1302;2829;60.6;24.8;86;weather;1930
+Hyvinkää Kruununpuisto;107166;;;60.62;24.86;106;air quality (urban);2019
+Hämeenlinna Katinen;101150;1322;2754;61;24.49;87;weather;2001
+Hämeenlinna Kotinen;101188;1437;;61.24;25.07;158;air quality (FMI);1987
+Hämeenlinna Lammi Pappila;101154;1403;2767;61.05;25.04;125;weather;1963
+Hämeenlinna Niittykatu;103109;;;61;24.46;85;air quality (urban);2011
+Hämeenlinna Pirttikoski;101143;1315;;61.01;23.92;128;precipitation;1939
+Ikaalinen Hakumäki;101312;2220;2941;61.77;23.08;154;radar;1994
+Ikaalinen Vehuvarpee;101277;2108;;61.74;22.82;124;precipitation;1961
+Ilmajoki Seinäjoki airport;137188;;;62.69;22.84;86;weather;2012
+Ilomantsi Mekrijärvi;101651;3919;2939;62.77;30.98;155;weather;1999
+Ilomantsi Naarva;101641;3909;;63.03;31.06;245;precipitation;1989
+Ilomantsi Pötsönvaara;101649;3917;2766;63.14;31.04;233;weather, air quality (FMI);1997
+Imatra Mansikkala;103118;;;61.19;28.77;75;air quality (urban);1998
+Imatra Pelkolan tulliasema Raja;103119;;;61.13;28.84;60;air quality (urban);1991
+Imatra Rautionkylä;103121;;;61.24;28.87;101;air quality (urban);1987
+Imatra Teppanala;103122;;;61.15;28.81;62;air quality (urban);1994
+Inari Angeli Lintupuoliselkä;102026;9405;2857;68.9;25.74;285;weather;2008
+Inari Ivalo airport;102033;9601;2807;68.61;27.42;140;weather;1957
+Inari Kaamanen;102047;9616;2702;69.14;27.27;156;weather;2008
+Inari Kirakkajärvi;102055;9708;2858;69.58;28.89;106;weather;2009
+Inari Nellim;102052;9705;2835;68.85;28.3;121;weather;1990
+Inari Raja-Jooseppi;102009;8704;2818;68.48;28.3;253;weather, air quality (FMI);1992
+Inari Raja-Jooseppi Kontiojärvi;102008;8702;;68.47;28.32;185;precipitation;1960
+Inari Saariselkä Kaunispää;102006;8607;2817;68.43;27.44;437;weather;1995
+Inari Saariselkä tourist centre;102005;8606;2722;68.42;27.41;302;weather;1976
+Inari Seitalaassa;129963;9617;2888;69.05;27.76;120;weather;2011
+Inari Väylä;102042;9611;2827;69.07;27.49;123;weather;1990
+Inari parish;102046;9615;;68.91;27.02;127;precipitation;2003
+Inkoo Bågaskär;100969;302;2984;59.93;24.01;13;weather;1954
+Isojoki Kärjenkoski;101258;2004;;62.13;21.7;58;precipitation;1942
+Joensuu Huhtilampi;101460;2903;;62.43;30.41;140;precipitation;1956
+Joensuu Koskikatu 1;103148;;;62.6;29.76;80;air quality (urban);2003
+Joensuu Linnunlahti;101632;3825;2928;62.6;29.72;81;weather;2008
+Joensuu Pyhäselkä;101610;3803;;62.52;29.81;79;precipitation;1908
+Jokioinen Ilmala;101104;1201;2963;60.81;23.5;104;weather, sounding;1957
+Jomala Jomalaby;100917;11;2741;60.18;19.99;11;weather;1971
+Jomala Mariehamn airport;100907;1;2970;60.13;19.9;2;weather;1950
+Joutsa Pärnämäki;101390;2525;;61.77;26.39;116;precipitation;1969
+Joutsa Savenaho;101367;2501;2771;61.88;26.09;145;weather;1946
+Juuka Niemelä;101609;3802;2791;63.23;29.23;115;weather;1914
+Juupajoki Hyytiälä;101317;2303;2770;61.85;24.29;154;weather, precipitation, air quality (FMI);1956
+Juva Partala;101418;2622;2736;61.89;27.89;110;weather;1992
+Jyväskylä Hannikaisenkatu;106796;;;62.24;25.75;82;air quality (urban);2018
+Jyväskylä Muuratjärvi;101352;2414;;62.16;25.42;123;precipitation;1958
+Jyväskylä Palokka 2;103128;;;62.29;25.71;143;air quality (urban);2000
+Jyväskylä airport;101339;2401;2935;62.4;25.67;139;weather;1945
+Jyväskylä airport AWOS;137208;;;62.39;25.69;124;weather;1999
+Jämsä Halli Lentoasemantie;101338;2324;2946;61.86;24.81;144;weather;2008
+Jämsä Halli airport;101315;2301;2945;61.86;24.8;144;weather;1964
+Jämsä Lääkäritalo;104113;;;61.87;25.2;82;air quality (urban);1978
+Jämsä Seppolantie;103129;;;61.87;25.2;90;air quality (urban);2013
+Järvenpää Helsingintie;103154;;;60.47;25.09;40;air quality (urban);2012
+Järvenpää Sorto;103786;;;60.48;25.08;51;weather;2015
+Kaarina Kaarina;100823;;;60.41;22.38;13;air quality (urban);2004
+Kaarina Yltöinen;100934;103;2828;60.39;22.55;6;weather;1927
+Kajaani Paltaniemi;101742;4618;;64.29;27.64;128;precipitation;2000
+Kajaani Petäisenniska;126736;4620;2883;64.22;27.75;160;weather;2010
+Kajaani airport;101725;4601;2897;64.28;27.67;132;weather;1956
+Kalajoki Maakalla;103808;;;64.29;23.55;;buoy;2015
+Kalajoki Mehtäkylä;101685;4310;;64.27;24.21;40;precipitation;1961
+Kalajoki Pitkäsenkylä;101683;4308;;64.23;24.02;18;precipitation;1958
+Kalajoki Ulkokalla;101673;4212;2907;64.33;23.45;3;weather;1977
+Kangasniemi parish;101385;2520;;61.98;26.64;105;precipitation;1909
+Kankaanpää Niinisalo airfield;101291;2123;2753;61.84;22.46;123;weather;1998
+Karvia Alkkia;101272;2103;2708;62.18;22.8;162;weather;1966
+Kaskinen Sälgrund;101256;2002;2931;62.33;21.19;5;weather;1876
+Kaskinen Ådskär;134251;;;62.34;21.21;;mareograph;1926
+Kauhajoki Kuja-Kokko;101289;2121;2769;62.41;22.18;93;weather;1986
+Kauhava airfield;101503;3201;2913;63.12;23.04;42;weather;1931
+Kaustinen Tastula;101665;4204;;63.59;23.72;74;precipitation;1925
+Kemi Ajos;101846;6307;2862;65.67;24.52;2;weather;1973
+Kemi Ajos;100539;;;65.67;24.52;;mareograph;1922
+Kemi I lighthouse;101783;5309;2863;65.39;24.1;0;weather;1978
+Kemi Kemi-Tornio airport;101840;6301;2864;65.79;24.58;11;weather;1945
+Kemi Keskusta;107218;;;65.73;24.56;10;air quality (urban);2020
+Kemijärvi airfield;101950;7607;2814;66.72;27.16;208;weather;2006
+Kemiönsaari Kalvören;654923;;;59.9;22.63;;buoy;2013
+Kemiönsaari Kemiö;100951;120;2906;60.17;22.76;12;weather;2009
+Kemiönsaari Vänö;100945;114;2743;59.87;22.19;10;weather;1990
+Kirkkonummi Mäkiluoto;100997;331;2794;59.92;24.35;2;weather;1989
+Kirkkonummi keskusta;106953;;;60.13;24.43;21;air quality (urban);2019
+Kitee Kesälahti;100690;;2995;61.91;29.8;174;radar;2014
+Kittilä Alakylä;101918;7311;;67.26;24.97;190;precipitation;2003
+Kittilä Kenttärova;101987;8312;2824;67.99;24.24;347;weather;2002
+Kittilä Lompolonvuoma;778135;8303;2764;68;24.21;270;weather;2013
+Kittilä Matorova;101985;8310;2882;68;24.24;340;weather, air quality (FMI);1995
+Kittilä Pokka;101994;8404;2717;68.17;25.78;276;weather;1971
+Kittilä Pulju;101980;8305;;68.23;24.83;277;precipitation;1974
+Kittilä parish;101990;8315;2860;67.65;24.9;181;weather;2009
+Kittilä airport;101986;8311;2720;67.69;24.86;195;weather;1999
+Kiuruvesi Korpijoki;101712;4504;;63.73;26.37;110;precipitation;1958
+Kokemäki Rausenkulma;101068;1104;2762;61.26;22.23;38;precipitation;1931
+Kokemäki Tulkkila;101103;1140;2937;61.25;22.35;38;weather;2010
+Kokkola Santahaka;101675;4214;2852;63.84;23.1;5;weather;2007
+Kokkola Tankar;101661;4109;2721;63.95;22.85;5;weather;1996
+Kokkola Ykspihlaja;103108;;;63.84;23.04;7;air quality (urban);1990
+Kokkola keskusta Pitkänsillankatu;103107;;;63.84;23.13;10;air quality (urban);1998
+Kolari Kattilamaa;101913;7306;;67.38;24.01;173;precipitation;1968
+Korsnäs Bredskäret;101479;3018;2780;62.93;21.19;1;weather;1991
+Kotka Haapasaari;101042;601;2967;60.29;27.18;4;weather;1986
+Kotka Kirjastotalo;103105;;;60.47;26.94;25;air quality (urban);1983
+Kotka Kuusenkari;100761;;;60.27;27.11;;buoy;2014
+Kotka Metsäkulma/siirrettävä;107167;;;60.5;26.97;4;air quality (urban);2020
+Kotka Mussalo satama/siirrettävä;107164;;;60.43;26.92;4;air quality (urban);2019
+Kotka Rankki;101030;501;2976;60.38;26.96;11;weather;1933
+Kotka Rauhala;103106;;;60.51;26.95;6;air quality (urban);1999
+Kouvola Anjala;101194;1504;2830;60.7;26.81;31;weather;1941
+Kouvola Inkeroinen tehtaanmäen koulu;105409;;;60.71;26.83;35;air quality (urban);2018
+Kouvola Kaipiainen;101234;1615;2954;60.9;27.11;323;radar;1994
+Kouvola Kankaan Koulu;104078;;;60.87;26.7;75;air quality (urban);2013
+Kouvola Kuusankoski Mäkikylä;104042;;;60.89;26.59;60;air quality (urban);2007
+Kouvola Kuusankoski Urheilukentäntie;103112;;;60.91;26.63;55;air quality (urban);1991
+Kouvola Utti Lentoportintie;101219;1529;2956;60.89;26.93;99;weather;2008
+Kouvola Utti airport;101191;1501;2966;60.9;26.95;102;weather;1944
+Kouvola Voikoski;101211;1521;;61.25;26.78;90;precipitation;1968
+Kristiinankaupunki lighthouse;101268;2014;2752;62.2;21.17;0;weather;1997
+Kruunupyy Kokkola-Pietarsaari airport;101662;4201;2903;63.73;23.14;25;weather;1960
+Kuhmo Apaja;101771;4811;;64.07;29.22;190;precipitation;1997
+Kuhmo Kalliojoki;101773;4901;2799;64.3;30.17;196;weather, precipitation;1997
+Kumlinge parish;100928;23;2790;60.26;20.75;23;weather;2000
+Kuopio Haminalahti;100882;;;62.85;27.53;108;air quality (urban);2012
+Kuopio Karttula;101579;3610;;62.85;27.27;131;precipitation;1982
+Kuopio Kasarmipuisto;102102;;;62.89;27.67;112;air quality (urban);1994
+Kuopio Maaherrankatu;103093;;;62.89;27.69;87;air quality (urban);2004
+Kuopio Maaninka;101572;3603;2788;63.14;27.31;91;weather;1930
+Kuopio Niirala;104098;;;62.89;27.65;122;air quality (urban);2015
+Kuopio Puijo;101587;3618;;62.91;27.66;230;air quality (FMI);2010
+Kuopio Ritoniemi;101580;3611;2732;62.8;27.9;86;weather;1980
+Kuopio Rytky;101582;3613;2918;62.86;27.38;268;radar;1995
+Kuopio Savilahti;101586;3617;2955;62.89;27.63;87;weather;2005
+Kuopio Savilahti KYS;106954;;;62.9;27.65;102;air quality (urban);2019
+Kuopio Sorsasalo;103094;;;62.96;27.7;90;air quality (urban);1991
+Kuopio Tasavallankatu;103095;;;62.88;27.66;107;air quality (urban);2009
+Kuopio Vehmasmäki;101581;3612;2837;62.74;27.54;190;mast;1990
+Jalasjärvi Hirvijärv;101285;2117;;62.47;22.91;100;precipitation;1920
+Kurikka Pyörni;101478;3017;;62.73;21.96;72;precipitation;1981
+Kustavi Isokari;101059;1016;2964;60.72;21.03;5;weather;1974
+Kuusamo Juuma;101899;6814;2749;66.32;29.4;298;weather, air quality (FMI);1989
+Kuusamo Kiutaköngäs;101887;6802;2811;66.37;29.31;164;weather;1966
+Kuusamo Ruka Talvijärvi;806428;6817;2760;66.17;29.14;306;weather;2013
+Kuusamo Rukatunturi;101897;6812;2868;66.17;29.15;500;weather;1990
+Kuusamo Teeriranta;101898;6813;;65.52;29.52;225;precipitation;1998
+Kuusamo Välikangas;107081;;;66;29.22;266;weather;2019
+Kuusamo airport;101886;6801;2869;65.99;29.23;265;weather;1909
+Kökar Bogskär;100921;16;2979;59.5;20.35;4;weather;1982
+Lahti Holma;104092;;;61.01;25.68;95;air quality (urban);2010
+Lahti Kisapuisto;103130;;;60.99;25.65;89;air quality (urban);1981
+Lahti Laune Pohjoinen Liipolankatu;103131;;;60.97;25.65;85;air quality (urban);2000
+Lahti Saimaankatu;103132;;;60.99;25.67;85;air quality (urban);2013
+Lahti Satulakatu;103133;;;60.98;25.59;155;air quality (urban);2011
+Lahti Sopenkorpi;104796;1441;;60.97;25.62;100;weather;2016
+Lahti Vesku 11;103134;;;60.98;25.66;99;air quality (urban);1990
+Lapinlahti Lamminkäyrä;101577;3608;;63.38;27.37;87;precipitation;1968
+Lappeenranta Hiekkapakka;101252;1716;2919;61.2;28.47;77;weather;2009
+Lappeenranta Ihalainen;103114;;;61.04;28.18;84;air quality (urban);1991
+Lappeenranta Joutsenon keskusta;103115;;;61.12;28.5;103;air quality (urban);1997
+Lappeenranta Konnunsuo;101246;1710;2733;61.04;28.56;46;weather;1991
+Lappeenranta Lauritsala;103117;;;61.07;28.26;105;air quality (urban);1994
+Lappeenranta Lepola;101247;1711;2959;61.06;28.21;103;weather;1995
+Lappeenranta Pulp;103120;;;61.13;28.45;105;air quality (urban);1996
+Lappeenranta Tirilä Pekkasenkatu;103123;;;61.06;28.25;91;air quality (urban);1989
+Lappeenranta keskusta 4;103116;;;61.06;28.18;106;air quality (urban);2008
+Lappeenranta airport;101237;1701;2958;61.04;28.13;104;weather;1950
+Lemland Nyhamn;100909;3;2980;59.96;19.95;9;weather;1958
+Lieksa Hietajärvi;101650;3918;;63.17;30.71;173;air quality (FMI);1987
+Lieksa Koli;101616;3809;;63.11;29.76;165;precipitation;1969
+Lieksa Lampela;101636;3904;2796;63.32;30.05;98;weather;1946
+Liperi Joensuu airport;101608;3801;2929;62.66;29.64;112;weather;1955
+Liperi Tuiskavanluoto;101628;3821;2793;62.55;29.67;78;weather;1997
+Lohja Harjula;107147;;;60.25;24.07;70;air quality (urban);2020
+Lohja Leppäkorpi;100963;213;;60.49;23.77;96;precipitation;1968
+Lohja Porla;100974;307;2706;60.24;24.05;36;weather;1949
+Loviisa Orrengrund;101039;510;2992;60.27;26.45;1;weather;1974
+Luhanka Judinsalo;101362;2426;2765;61.7;25.51;80;weather;1990
+Lumparland Långnäs harbour;151048;12;2724;60.12;20.3;10;weather;2012
+Luoto Vikarholmen;103153;;;63.7;22.76;2;air quality (urban);2001
+Maalahti Storskäret;107033;;;63.11;20.82;;buoy;2019
+Maalahti Strömmingsbådan;101481;3020;2781;62.98;20.74;2;weather;1997
+Mariehamn West Harbour;151029;26;2997;60.09;19.93;2;weather;2012
+Merikarvia Tuorila;101257;2003;;61.85;21.65;39;precipitation;1958
+Mikkeli airport AWOS;855522;;;61.69;27.21;101;weather;1959
+Mikkeli Pitkähiekka;101410;2614;;62.01;27.19;109;precipitation;1956
+Mikkeli Porrassalmenkatu;103149;;;61.69;27.27;89;air quality (urban);2003
+Mikkeli airport;101398;2602;2947;61.69;27.2;99;weather;1951
+Multia Karhila;101536;3317;2927;62.51;24.81;227;weather;2008
+Multia Pirttiperä;101363;2427;;62.41;25.05;180;precipitation;1991
+Muonio Laukukero;101982;8307;2820;68.06;24.03;760;weather;1996
+Muonio Sammaltunturi;101983;8308;2821;67.97;24.12;555;weather, air quality (FMI);1991
+Muonio parish;106435;8211;2823;67.96;23.68;236;weather;2013
+Mustasaari Riimala;101474;3013;;62.97;21.78;15;precipitation;1967
+Mustasaari Valassaaret;101464;3003;2910;63.44;21.07;4;weather;1895
+Mäntsälä Hirvihaara;103794;1440;2774;60.63;25.19;83;weather;2015
+Naantali keskusta Asematori;100824;;;60.47;22.03;14;air quality (urban);1999
+Nastola Kukkasen koulu;104097;;;60.95;25.91;131;air quality (urban);2015
+Nastola Rakokiventie siirrettävä;104091;;;60.94;25.96;142;air quality (urban);2016
+Nokia Tottijärvi;101116;1213;;61.4;23.34;99;precipitation;1959
+Nurmes Mujejärvi;101763;4803;;63.82;29.45;252;precipitation;1966
+Nurmes Mujejärvi Riihivaara;107131;;;63.84;29.45;;radar;2019
+Nurmes Valtimo;101743;4701;2798;63.67;28.83;114;weather;1969
+Nurmijärvi Röykkä;101149;1321;2983;60.51;24.65;110;weather;1952
+Närpiö Alamarkku;101468;3007;;62.63;21.49;35;precipitation;1961
+Oripää Teinikivi;101081;1117;;60.9;22.71;82;precipitation;1968
+Oulu Nokela;103124;;;64.99;25.48;8;air quality (urban);1979
+Oulu Oulunsalo Pellonpää;101799;5414;2851;64.94;25.37;11;weather;2007
+Oulu Pyykösjärvi;103126;;;65.04;25.5;8;air quality (urban);1991
+Oulu Santapankki;103807;;;65.23;24.97;0;buoy;2015
+Oulu Toppila;134248;;;65.04;25.42;0;mareograph;1922
+Oulu Vihreäsaari harbour;101794;5409;2876;65.01;25.39;3;weather;1996
+Oulu keskusta 2;103125;;;65.01;25.47;5;air quality (urban);1997
+Oulu airport;101786;5401;2875;64.94;25.34;13;weather;1953
+Outokumpu Viuruniemi;101590;3703;;62.62;28.94;113;precipitation;1961
+Parainen;104064;;;60.3;22.3;3;air quality (urban);2010
+Parainen Fagerholm;100924;19;2950;60.11;21.7;3;weather;1989
+Parainen Parainen;100843;;;60.3;22.28;20;air quality (urban);2013
+Parainen Rumar;100926;21;2933;60.13;21.64;61;radar;1997
+Parainen Utö;100908;2;2981;59.78;21.37;6;weather, precipitation, air quality (FMI);1881
+Parikkala Koitsanlahti;101254;1802;2734;61.44;29.46;74;weather;1991
+Pelkosenniemi Pyhätunturi;101958;7708;2705;67.02;27.22;491;weather;1995
+Pelkosenniemi parish;101947;7604;;67.1;27.51;155;precipitation;1968
+Pello parish;101914;7307;2844;66.77;23.96;85;weather;1970
+Bay of Bothnia wavebuoy;137228;;;64.68;23.24;0;buoy;2012
+Petäjävesi Kintaus;103813;;2775;62.3;25.44;271;radar;2015
+Pieksämäki Savontie;104108;;;62.3;27.16;111;air quality (urban);2007
+Pielavesi Venetmäki;101569;3516;;63.32;26.98;189;precipitation;1986
+Pietarsaari Bottenviksvägen;103152;;;63.68;22.72;8;air quality (urban);1994
+Pietarsaari Kallan;101660;4108;2920;63.75;22.52;2;weather;1995
+Pietarsaari Leppäluoto;134250;;;63.71;22.69;0;mareograph;1922
+Pirkkala Tampere-Pirkkala airport;101118;1215;2944;61.42;23.62;112;weather;1979
+Northern Baltic Proper wavebuoy;134220;;;59.25;21;0;buoy;1996
+Pori Kaijakari;104600;;;61.62;21.39;0;buoy;2016
+Pori Mäntyluoto Kallo;134266;;;61.59;21.46;;mareograph;1925
+Pori Paanakedonkatu;106420;;;61.48;21.81;2;air quality (urban);2016
+Pori Pastuskeri;103135;;;61.66;21.45;3;air quality (urban);2012
+Pori Tahkoluoto harbour;101267;2013;2751;61.63;21.38;3;weather;1996
+Pori airport;101044;1001;2952;61.46;21.81;11;weather;1945
+Pori railway station;101064;1021;2926;61.48;21.78;9;weather;2008
+Porvoo Emäsalo;101023;417;2991;60.2;25.63;19;weather;1974
+Porvoo Emäsalo Vaarlahti;100669;;;60.21;25.63;0;mareograph;2014
+Porvoo Harabacka;101028;422;2759;60.39;25.61;22;weather;2006
+Porvoo Kalbådagrund;101022;416;2987;59.99;25.6;0;weather;1977
+Porvoo Kilpilahti harbour;100683;424;2994;60.3;25.55;2;weather;2014
+Porvoo Mannerheiminkatu;104029;;;60.39;25.66;10;air quality (urban);2004
+Porvoo Mustijoki;103139;;;60.36;25.57;10;air quality (urban);1991
+Porvoo Nyby;103140;;;60.32;25.5;28;air quality (urban);2011
+Porvoo Svartbäck;103141;;;60.29;25.51;15;air quality (urban);2013
+Posio Raistakka;101881;6703;;65.98;28.17;260;precipitation;1968
+Pudasjärvi Jaurakkajärvi;101812;5607;;65.16;27.65;135;precipitation;1968
+Pudasjärvi Sarakylä;101877;6604;;65.8;27.34;158;precipitation;1968
+Pudasjärvi airfield;101805;5507;2866;65.4;26.96;120;weather;1999
+Puolanka Kotila;101830;5715;;64.67;28.03;280;precipitation;1992
+Puolanka Paljakka;101831;5716;2859;64.66;28.06;341;weather;2009
+Puumala parish;150168;2708;2718;61.52;28.18;98;weather;2012
+Pyhtää airfield;107029;513;;60.49;26.59;21;weather;2019
+Pyhäjärvi Hiidenniemi;101706;4413;;63.61;25.47;140;precipitation;1992
+Pyhäjärvi Ojakylä;101705;4412;2738;63.74;25.71;152;weather;1990
+Pöytyä Yläne;101093;1130;;60.87;22.39;57;precipitation;1975
+Raahe Lapaluoto;100540;;;64.67;24.41;;mareograph;1922
+Raahe Lapaluoto;103145;;;64.67;24.42;11;air quality (urban);1982
+Raahe Lapaluoto harbour;101785;5311;2872;64.67;24.41;2;weather;1990
+Raahe Nahkiainen;101775;5201;2800;64.61;23.9;0;weather;1997
+Raahe keskusta;103147;;;64.68;24.48;3;air quality (urban);2005
+Raasepori Jussarö;100965;215;2757;59.82;23.57;17;weather;1990
+Raisio Ihala;106630;;;60.47;22.19;10;air quality (urban);2017
+Raisio Kaanaa Sakunpiha;106419;;;60.47;22.1;20;air quality (urban);2016
+Rantasalmi Rukkasluoto;101436;2716;2772;62.06;28.57;79;weather;1997
+Ranua airfield;101873;6514;2881;65.98;26.37;161;weather;2008
+Rauma Kylmäpihlaja;101061;1018;2761;61.14;21.3;4;weather;1990
+Rauma Pyynpää;105427;1023;;61.14;21.52;15;weather;2018
+Rauma Sinisaari;778578;;;61.12;21.49;2;air quality (urban);1986
+Rauma Tarvonsaari Hallikatu;103113;;;61.13;21.5;3;air quality (urban);2002
+Rauma Ulko-Petäjäs;134224;;;61.13;21.43;0;mareograph;1933
+Rauma aaltopoiju;107169;;;61.2;21.08;0;buoy;2020
+Raumanväylä aaaltopoiju;107215;;;61.13;21.24;0;buoy;2020
+Rautavaara Ala-Luosta;101599;3712;;63.27;28.47;111;precipitation;1968
+Rautavaara Ylä-Luosta;101603;3716;2789;63.38;28.66;166;weather, precipitation;1976
+Ristijärvi Mustavaara;101753;4711;;64.47;28.62;268;precipitation;1978
+Rovaniemi Apukka;101933;7502;2813;66.58;26.01;106;weather;1939
+Rovaniemi Vennivaara;101927;7408;2846;66.55;25.57;191;mast;1991
+Rovaniemi airport;101920;7401;2845;66.56;25.84;189;weather;1951
+Rovaniemi airport AWOS;137190;;;66.57;25.85;187;weather;1999
+Rovaniemi railway station;101928;7409;2847;66.5;25.71;85;weather;1997
+Ruokolahti Kotaniemi;101248;1712;;61.37;28.68;97;precipitation;1998
+Rääkkylä parish;101450;2810;;62.31;29.63;97;precipitation;1971
+Salla Kelloselkä;101956;7706;;66.94;28.98;200;precipitation;1949
+Salla Naruska;101966;7804;2745;67.16;29.18;213;weather;1999
+Salla Värriötunturi;102012;8803;2819;67.75;29.61;360;weather, precipitation;1971
+Salla parish;101959;7709;2849;66.82;28.69;218;weather;1999
+Salo Kiikala airfield;100967;217;2777;60.46;23.65;117;weather;2002
+Salo Kärkkä;100955;205;2756;60.37;23.11;2;weather;1936
+Savonlinna Haapasalmi;106418;;;61.87;28.89;79;air quality (urban);2016
+Savonlinna Laukansaari;101423;2702;;61.8;28.85;94;precipitation;1942
+Savonlinna Olavinkatu;104045;;;61.87;28.88;79;air quality (urban);2004
+Savonlinna Punkaharju Laukansaari;101441;2801;2778;61.8;29.32;79;weather;1904
+Savonlinna Savonranta;101448;2808;;62.17;29.28;90;precipitation;1908
+Savonlinna airport;101430;2710;2948;61.95;28.93;92;weather;1974
+Savukoski parish;101952;7702;2815;67.29;28.18;180;weather, precipitation;1963
+Seinäjoki Pelmaa;101486;3101;2833;62.94;22.49;26;weather;1927
+Seinäjoki Vapaudentie 6a;103110;;;62.78;22.84;51;air quality (urban);2011
+Sea of Bothnia wavebuoy;134246;;;61.8;20.23;0;buoy;2011
+Siikajoki Ruukki;101787;5402;2803;64.68;25.09;48;weather;1904
+Siikalatva Kestilä;101717;4509;;64.36;26.3;89;precipitation;1908
+Siilinjärvi Kuopio airport;101570;3601;2917;63;27.81;94;weather;1945
+Siilinjärvi Kuuslahti;107026;;;63.13;27.77;103;air quality (urban);2018
+Siilinjärvi Murtomäki;106629;;;63.14;27.7;123;air quality (urban);2017
+Siilinjärvi Musti;105425;;;63.2;27.74;140;air quality (urban);2019
+Siilinjärvi Pahkamäki;104099;;;63.18;27.77;143;air quality (urban);2015
+Siilinjärvi Sorakuja;104017;;;63.07;27.66;129;air quality (urban);2002
+Siilinjärvi Vuorelantie;107135;;;62.98;27.7;85;air quality (urban);2019
+Sipoo Eestiluoto;101029;423;2930;60.12;25.22;13;weather;2008
+Sipoo Itätoukki;105392;425;;60.1;25.19;5;weather;2017
+Siuntio Sjundby;105302;321;;60.14;24.26;26;precipitation;1995
+Sodankylä Heikinheimo-masto;101942;7511;2742;67.36;26.64;179;air quality (FMI);2000
+Sodankylä Lokka;102000;8601;2719;67.82;27.75;240;weather;1958
+Sodankylä Luosto;101939;7508;2840;67.14;26.9;532;radar;2000
+Sodankylä Tähtelä;101932;7501;2836;67.37;26.63;179;weather, sounding, air quality (FMI);1891
+Sodankylä Vuotso;102001;8602;2816;68.08;27.19;247;weather;1958
+Somero Salkola;101128;1227;2949;60.65;23.81;142;weather;2010
+Sotkamo Kuolaniemi;101756;4714;2739;64.11;28.34;161;weather;1989
+Sotkamo Tuhkakylä;107113;;;64;28.06;212;weather;2019
+Sulkava Halttula;101425;2704;;61.92;28.32;109;precipitation;1933
+Gulf of Finland wavebuoy;134221;;;59.97;25.24;0;buoy;1990
+Suomussalmi Näljänkä;101822;5707;;65.24;28.45;251;precipitation;1970
+Suomussalmi Pesiö;101826;5711;2889;64.93;28.75;222;weather, precipitation;1981
+Suonenjoki Iisvesi;101578;3609;;62.67;27.04;103;precipitation;1978
+Sysmä Joutsjärvi;101342;2404;;61.51;25.81;91;precipitation;1947
+Taivalkoski Inkee;101882;6704;;65.73;28.56;247;precipitation;1968
+Taivalkoski parish;101885;6707;2804;65.57;28.22;197;weather;2002
+Tampere Epila 2;103096;;;61.51;23.68;100;air quality (urban);2009
+Tampere Härmälä;101124;1222;2763;61.47;23.75;85;weather;1997
+Tampere Kaleva;103097;;;61.5;23.8;109;air quality (urban);2009
+Tampere Linja-autoasema;103098;;;61.49;23.77;80;air quality (urban);2008
+Tampere Pirkankatu;103099;;;61.5;23.74;120;air quality (urban);2003
+Tampere Siilinkari;101311;2219;2943;61.52;23.75;96;weather;1989
+Tampere Tampella;151049;2223;2744;61.5;23.76;91;weather;2012
+Tervola Loue;107201;6313;;66.15;24.99;38;weather;2020
+Teuva Kauppilankylä;101262;2008;;62.49;21.76;60;precipitation;1960
+Tohmajärvi Kemie;101459;2902;2832;62.24;30.35;91;weather;1925
+Toholampi Laitala;101689;4314;2737;63.82;24.16;84;weather;1988
+Toholampi Oravala;101679;4304;;63.77;24.28;85;precipitation;1926
+Tornio Keskusta;107142;;;65.84;24.15;8;air quality (urban);2019
+Tornio Näätsaari;107141;;;65.82;24.16;8;air quality (urban);2019
+Tornio Torppi;101851;6312;2880;65.85;24.17;8;weather;2008
+Turku Artukainen;100949;118;2773;60.45;22.18;8;weather;2003
+Turku Kauppatori väliaikainen;106797;;;60.45;22.27;6;air quality (urban);2018
+Turku Rajakari;100947;116;2747;60.38;22.1;3;weather;1991
+Turku Ruissalo Saaronniemi;134225;;;60.43;22.1;0;mareograph;1922
+Turku Ruissalo Saarontie;100845;;;60.43;22.1;6;air quality (urban);1999
+Turku airport;101065;1101;2972;60.52;22.28;45;weather;1955
+Utajärvi Korkiakangas;101872;6513;2870;64.77;26.32;118;radar;1997
+Utajärvi Särkijärvi;101809;5604;;64.93;27.19;130;precipitation;1916
+Utsjoki Kevo;102035;9603;2805;69.76;27.01;107;weather, air quality (FMI);1962
+Utsjoki Kevo Kevojärvi;126737;9618;2890;69.76;27.01;76;weather;2010
+Utsjoki Nuorgam;102036;9604;2825;70.08;27.9;22;weather;1929
+Uusikaupunki Itätulli;101049;1006;;60.8;21.42;7;precipitation;1908
+Uusikaupunki Vekara;106631;;;60.87;21.05;0;buoy;2017
+Vaala Pelso;101800;5502;2714;64.5;26.42;113;weather;1943
+Vaasa Klemettilä;101485;3024;2957;63.1;21.64;7;weather;2010
+Vaasa Vaskiluoto;134223;;;63.08;21.57;0;mareograph;1922
+Vaasa Vesitorni;103103;;;63.1;21.6;16;air quality (urban);2006
+Vaasa keskusta Vaasanpuistikko;103104;;;63.1;21.62;15;air quality (urban);2001
+Vaasa airport;101462;3001;2911;63.06;21.75;4;weather;1946
+Vantaa Helsinki-Vantaa airport;100968;301;2974;60.33;24.96;51;weather;1952
+Vantaa Kaivoksela;101001;335;2975;60.27;24.87;83;radar;1994
+Vantaa Kehä III Varisto;104076;;;60.28;24.82;32;air quality (urban);2013
+Vantaa Tikkurila Neilikkatie;100763;;;60.29;25.04;21;air quality (urban);1996
+Vantaa Tikkurila Talvikkitie;106951;;;60.3;25.03;17;air quality (urban);2019
+Varkaus Kommila terveyskeskus;107063;;;62.33;27.89;88;air quality (urban);2019
+Varkaus Kosulanniemi;101421;2625;2850;62.32;27.91;83;weather;2007
+Varkaus Kosulanniemi Rantalankatu;106417;;;62.32;27.91;85;air quality (urban);2016
+Varkaus Psaari 2;103100;;;62.31;27.89;80;air quality (urban);2003
+Varkaus Taulumäki (toripaviljonki);103102;;;62.32;27.87;86;air quality (urban);2001
+Varkaus kaupungintalo;104188;;;62.31;27.89;78;air quality (urban);1991
+Vesanto parish;101555;3502;2710;62.92;26.42;121;weather;1908
+Vieremä Kaarakkala;101726;4602;2834;63.84;27.22;206;weather, precipitation;1937
+Vihti Hiiskula;101135;1307;;60.52;24.52;100;precipitation;1924
+Vihti Maasoja;100976;309;2758;60.42;24.4;39;weather;1938
+Viitasaari Haapaniemi;101537;3401;2915;63.08;25.86;130;weather;1969
+Viitasaari Kärnä;101545;3409;;63.17;25.94;115;precipitation;1960
+Vimpeli Lakeaharju;101518;3217;2925;63.1;23.82;198;radar;2005
+Virolahti Koivuniemi;101231;1612;2831;60.53;27.67;5;weather, precipitation;1976
+Virolahti Koivuniemi Ääpälä;100656;;;60.53;27.68;5;air quality (FMI);2013
+Virrat Äijänneva;101310;2218;2735;62.33;23.54;138;weather;1986
+Ylitornio Meltosjärvi;101908;7301;2812;66.53;24.65;93;weather;1937
+Ylivieska Vähäkangas;101691;4316;;64.07;24.68;75;precipitation;2000
+Ylivieska airfield;101690;4315;2755;64.05;24.72;76;weather;2000
+Ähtäri Inha;101520;3301;2924;62.55;24.14;161;weather;1912
+Äänekoski Hiski;103151;;;62.6;25.74;110;air quality (urban);2004
+Äänekoski Kalaniemi;101541;3405;;62.88;25.86;107;precipitation;1956
+Äänekoski Paloasema;107168;;;62.6;25.74;;air quality (urban);2020
