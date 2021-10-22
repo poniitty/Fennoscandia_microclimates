@@ -3,10 +3,7 @@ library(tidyverse)
 library(lubridate)
 #remotes::install_github("rOpenGov/fmi2")
 library(fmi2)
-library(DT)
-library(leaflet)
 library(sf)
-library(skimr)
 
 
 station_data <- read_delim("data/extra/fmi_stations.csv", delim = ";", locale = locale(encoding = "UTF-8"))
@@ -60,15 +57,19 @@ for(i in 1:NROW(selected_stations)){
   }
 }
 
-fwrite(df, "output/fmi_daily.csv")
+write_csv(df, "output/fmi_daily.csv")
 
 # HOURLY
 
+startdate <- "2018-01-01"
+enddate <- Sys.Date()
+
+days <- seq(as_date(startdate), as_date(enddate), by  = "month")
 
 df <- data.frame()
 for(i in 1:NROW(selected_stations)){
   # i <- 1
-  print(selected$Name[i])
+  print(selected_stations$Name[i])
   
   for(ii in days){
     
@@ -89,7 +90,7 @@ for(i in 1:NROW(selected_stations)){
   }
 }
 
-fwrite(df, "analyses_ready/fmi_hourly.csv")
+write_csv(df, "output/fmi_hourly.csv")
 
 
 
