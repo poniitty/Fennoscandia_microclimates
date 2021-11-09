@@ -222,6 +222,13 @@ monthly %>% rename(id_code = site) %>%
   relocate(day_frac_T4, .after = day_frac_T3) %>% 
   relocate(starts_with("logger_T4"), .after = month) -> monthly
 
+monthly %>% rename(T1_prop = day_frac_T1,
+                   T2_prop = day_frac_T2,
+                   T3_prop = day_frac_T3,
+                   T4_prop = day_frac_T4,
+                   moist_prop = day_frac_moist,
+                   arh_prop = day_frac_arh) -> monthly
+
 # Monthly data ready!
 write_csv(monthly, "data/monthly_data_all.csv")
 
