@@ -110,6 +110,9 @@ daily %>% rename(id_code = site) %>%
   relocate(ends_with("_prop"), .after = date) %>% 
   relocate(logger_T4, .after = error_T4) -> daily
 
+daily %>% mutate(site = parse_number(id_code)) %>% 
+  relocate(site, .after = area) -> daily
+
 # Daily data ready!
 write_csv(daily, "data/daily_data_all.csv")
 
@@ -229,6 +232,9 @@ monthly %>% rename(T1_prop = day_frac_T1,
                    moist_prop = day_frac_moist,
                    arh_prop = day_frac_arh) -> monthly
 
+monthly %>% mutate(site = parse_number(id_code)) %>% 
+  relocate(site, .after = area) -> monthly
+
 # Monthly data ready!
 write_csv(monthly, "data/monthly_data_all.csv")
 
@@ -285,6 +291,11 @@ bind_rows(d1 %>% mutate(site = paste0("RAS",unlist(lapply(site, add_zeros)))),
 
 # Check
 unique(snow$area)
+
+snow %>% rename(id_code = site) %>% 
+  mutate(site = parse_number(id_code)) %>% 
+  relocate(site, .after = area) -> snow
+
 
 # Snow data ready!
 write_csv(snow, "data/snow_vars_all.csv")
