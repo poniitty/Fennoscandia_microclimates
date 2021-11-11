@@ -114,7 +114,7 @@ daily %>% mutate(site = parse_number(id_code)) %>%
   relocate(site, .after = area) -> daily
 
 # Daily data ready!
-write_csv(daily, "data/daily_data_all.csv")
+write_csv(daily, "data/all_data_daily.csv")
 
 
 ##################################################################################
@@ -300,3 +300,137 @@ snow %>% rename(id_code = site) %>%
 # Snow data ready!
 write_csv(snow, "data/snow_vars_all.csv")
 
+
+
+#######################################################################################
+# GATHER THE RAW MICROCLIMATE DATA 
+# The Tomst source datasets are not on Github due to file size limitations
+# If needed contact Pekka Niittynen to get access
+
+# Download datasets
+# Rastigaisa
+d1 <- read_csv("../Rastigaisa_microclimate/output/tomst_data.csv")
+
+# Kilpisjärvi
+d2 <- read_csv("../kilpisjarvi_microclimate/output/tomst_data.csv") %>% 
+  mutate(site = gsub("RA","RAR",site))
+
+# Värriö
+d3 <- read_csv("../varrio_microclimate/output/tomst_data.csv")
+
+# Tiilikka
+d4 <- read_csv("../Tiilikka_microclimates/output/tomst_data.csv")
+
+# Pisa
+d5 <- read_csv("../Pisa_microclimates/output/tomst_data.csv")
+
+# Hyytiälä
+d6 <- read_csv("../Hyytiala_microclimates/output/tomst_data.csv")
+
+# Karkali
+d7 <- read_csv("../Karkali_microclimate/output/tomst_data.csv")
+
+# Function for site identifiers
+add_zeros <- function(x){
+  if(nchar(x) == 1){
+    return(as.character(paste0("00",x)))
+  }
+  if(nchar(x) == 2){
+    return(as.character(paste0("0",x)))
+  }
+  if(nchar(x) > 2){
+    return(as.character(x))
+  }
+}
+
+# Combine all data and edit the sites ID's
+bind_rows(d1 %>% mutate(site = paste0("RAS",unlist(lapply(site, add_zeros)))),
+          d2,
+          d3 %>% mutate(site = paste0("VAR",unlist(lapply(site, add_zeros)))),
+          d4 %>% mutate(site = paste0("TII",unlist(lapply(site, add_zeros)))),
+          d5 %>% mutate(site = paste0("PIS",unlist(lapply(site, add_zeros)))),
+          d6 %>% mutate(site = paste0("HYY",unlist(lapply(site, add_zeros)))),
+          d7 %>% mutate(site = paste0("KAR",unlist(lapply(site, add_zeros))))) %>% 
+  mutate(area = substr(site, 1, 3)) %>% 
+  relocate(area, .after = site) -> all
+
+# Check
+unique(all$area)
+
+# Calibration function for the moisture count values for unknown soils from Kopecky et al. 2020
+cal_funNA <- function(x) {((-1.34e-8) * (x^2) + (2.50e-4) * x + (-1.58e-1))*100 }
+
+# Calibrate the moisture values
+all %>% rename(moist_count = moist) %>% 
+  mutate(moist = round(cal_funNA(moist_count),1)) %>% 
+  mutate(moist = ifelse(T1 < 1 | probl == 1, NA, moist)) -> all
+
+all %>% relocate(site, area) %>% 
+  relocate(moist, .after = T3) -> all
+
+############################################################################
+# haxo & hobo data
+
+# Kilpisjärvi
+d2 <- read_csv("../kilpisjarvi_microclimate/output/T4_combined.csv") %>% 
+  mutate(site = gsub("RA","RAR",site),
+         site = gsub("MI","SAA",site))
+
+# Värriö
+d3 <- read_csv("../varrio_microclimate/output/haxo_data_corrected.csv") %>% 
+  mutate(logger = "a") %>% 
+  rename(probl = haxo_probl)
+
+# Tiilikka
+d4 <- read_csv("../Tiilikka_microclimates/output/haxo_data_corrected.csv") %>% 
+  mutate(logger = "a") %>% 
+  rename(probl = haxo_probl)
+
+# Pisa
+d5 <- read_csv("../Pisa_microclimates/output/haxo_data_corrected.csv") %>% 
+  mutate(logger = "a") %>% 
+  rename(probl = haxo_probl)
+
+# Hyytiälä
+d6 <- read_csv("../Hyytiala_microclimates/output/haxo_data_corrected.csv") %>% 
+  mutate(logger = "a") %>% 
+  rename(probl = haxo_probl)
+
+# Karkali
+d7 <- read_csv("../Karkali_microclimate/output/haxo_data_corrected.csv") %>% 
+  mutate(logger = "a") %>% 
+  rename(probl = haxo_probl)
+
+# Combine all data and edit the sites ID's
+bind_rows(d2,
+          d3 %>% mutate(site = paste0("VAR",unlist(lapply(site, add_zeros)))),
+          d4 %>% mutate(site = paste0("TII",unlist(lapply(site, add_zeros)))),
+          d5 %>% mutate(site = paste0("PIS",unlist(lapply(site, add_zeros)))),
+          d6 %>% mutate(site = paste0("HYY",unlist(lapply(site, add_zeros)))),
+          d7 %>% mutate(site = paste0("KAR",unlist(lapply(site, add_zeros))))) %>% 
+  mutate(area = substr(site, 1, 3)) %>% 
+  relocate(area, .after = site) -> allT4
+
+# Check
+unique(allT4$area)
+
+################################
+# Combine all daily data
+all <- full_join(all %>% rename(error_tomst = probl),
+                 allT4 %>% rename(error_T4 = probl,
+                                  logger_T4 = logger)) %>% 
+  arrange(site, datetime)
+
+
+all %>% rename(id_code = site,
+               T4 = at) %>% 
+  relocate(starts_with("error"), .after = datetime) %>% 
+  relocate(T4, .after = T3) %>%
+  relocate(logger_T4, .after = error_T4) -> all
+
+all %>% mutate(site = parse_number(id_code)) %>% 
+  relocate(site, .after = area) -> all
+
+# Daily data ready!
+fwrite(all, "C:/datacloud/biogeoclimate/microclimate/data/logger/all_data.csv")
+# fread("C:/datacloud/biogeoclimate/microclimate/data/logger/all_data.csv")
