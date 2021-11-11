@@ -236,7 +236,7 @@ monthly %>% mutate(site = parse_number(id_code)) %>%
   relocate(site, .after = area) -> monthly
 
 # Monthly data ready!
-write_csv(monthly, "data/monthly_data_all.csv")
+write_csv(monthly, "data/all_data_monthly.csv")
 
 ##############################################################################
 # SNOW DATASETS
