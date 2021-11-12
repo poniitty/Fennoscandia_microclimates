@@ -115,6 +115,7 @@ daily %>% mutate(site = parse_number(id_code)) %>%
 
 # Daily data ready!
 write_csv(daily, "data/all_data_daily.csv")
+# fread("data/all_data_daily.csv")
 
 
 ##################################################################################
@@ -237,6 +238,7 @@ monthly %>% mutate(site = parse_number(id_code)) %>%
 
 # Monthly data ready!
 write_csv(monthly, "data/all_data_monthly.csv")
+# fread("data/all_data_monthly.csv")
 
 ##############################################################################
 # SNOW DATASETS
@@ -299,7 +301,7 @@ snow %>% rename(id_code = site) %>%
 
 # Snow data ready!
 write_csv(snow, "data/snow_vars_all.csv")
-
+# fread("data/snow_vars_all.csv")
 
 
 #######################################################################################
