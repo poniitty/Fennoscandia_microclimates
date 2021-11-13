@@ -51,7 +51,7 @@ for(i in 1:NROW(selected_stations)){
   print(selected_stations$Name[i])
   
   for(ii in days){
-    # ii <- "2021-08-21"
+    # ii <- "2016-11-01"
     print(as_date(ii))
     
     tryCatch({
